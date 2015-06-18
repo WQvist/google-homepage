@@ -1,0 +1,146 @@
+#logo{
+	position:relative;
+	margin-top:10%;
+	margin-left: 43%;
+	margin-right: auto;
+	height:190px;
+	width:538px;
+}
+
+#logo img {
+	width:50%;
+	height:50%;
+}
+
+#form {
+	width:560px;
+	height:25px;
+	position:absolute;
+	margin-top:-3.5%;
+	margin-left:35%;
+	margin-right:auto;
+}
+
+input:focus {
+	border:1px solid #5488FD;
+}
+
+#buttons {
+	position:absolute;
+	display:inline-block;
+	width:auto;
+	height:auto;
+	margin-left:44.1%;
+	margin-top:-1.7%;
+	margin-right:auto;
+}
+
+#search, #lucky {
+	display:inline-block;
+	width:auto;
+	padding:8px;
+	margin:10px;
+	height:auto;
+	background-color:#F5F5F5;
+	border:1px solid #E0E0E0;
+	border-radius:2px;
+	color:#444;
+	font-family: Arial;
+	font-size:10.5px;
+	text-align:center;
+	font-weight:bold;
+}
+
+div div {
+	display:inline;
+}
+
+#search:hover, #lucky:hover {
+	background-color:#FAFAFA;
+	border-color:#CACACA;
+}
+
+#footer {
+	position:absolute;
+	bottom:0px;
+	top:auto;
+	width:99.5%;
+	height:35px;
+	background-color:#F5F5F5;
+	margin: 100% auto 10px auto;
+	font-family: Arial;
+	font-size:12.5px;
+	border-top:1px solid #E0E0E0;
+	text-align:center;
+}
+
+a:link{
+	text-decoration:none;
+	color:#444;
+}
+
+.l_footer {
+	float:left;
+	margin-left:25px;
+	display:inline-block;
+	color: #666;
+	padding: 2px 6px 2px 6px;
+}
+
+.r_footer {
+	float:right;
+	margin-left:25px;
+	display:inline-block;
+	color: #666;
+	padding: 2px 6px 2px 6px;
+}
+
+#login {
+	width:82px;
+	padding:8px;
+	background-color:#4D7FF9;
+	font-family: Arial;
+	color:#FFFFFF;
+	font-size:13px;
+	font-weight:bold;
+	border:0px;
+	margin:2px;
+	padding-top:2px;
+	padding-bottom:2px;
+	height:30px;
+	position:relative;
+	top:-7px;
+	bottom:auto;
+	right:10px;
+	left:auto;
+}
+
+ul {
+	position:absolute;
+	list-style-type:none;
+	margin:5px;
+	padding:0;
+	top:10px;
+	bottom:auto;
+	right:1.6%;
+	left:auto;
+}
+
+ul li a, ul li a:hover {
+	display:block;
+	width:60px;
+	text-decoration:underline;
+}
+
+li {
+	display:inline;
+	float:left;
+	line-height:15px;
+}
+
+#head {
+	font-family: Arial;
+	color: #666;
+	font-size:12.5px;
+	text-align:center;
+}
